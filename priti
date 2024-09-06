@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌷🌷这是小秘密🌷🌷</title>
+    <style>
+        /* CSS để định dạng nút */
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>~ 我有一个秘密要告诉你🌝</h1>
+    <p>其实👉👈</p>
+    
+    <button id="button1" onclick="showButton2()">哎~~ 有点难开口哒~ 🤫</button>
+    <button id="button2" style="display: none;" onclick="showButton3()">你知道吗🥺</button>
+    <button id="button3" style="display: none;" onclick="showButton4()">不管怎么样🥰</button>
+    <button id="button4" style="display: none;" onclick="showButton5()">我总是觉得😋</button>
+    <button id="button5" style="display: none;">你是世界上最好看的人🥳</button>
+
+    <script>
+        function showButton2() {
+            document.getElementById('button1').style.display = 'none';
+            document.getElementById('button2').style.display = 'block';
+        }
+
+        function showButton3() {
+            document.getElementById('button2').style.display = 'none';
+            document.getElementById('button3').style.display = 'block';
+        }
+
+        function showButton4() {
+            document.getElementById('button3').style.display = 'none';
+            document.getElementById('button4').style.display = 'block';
+        }
+
+        function showButton5() {
+            document.getElementById('button4').style.display = 'none';
+            document.getElementById('button5').style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
